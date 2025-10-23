@@ -33,9 +33,9 @@ function App() {
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                Welcome to
+                Welcome to Technovation
                 <br />
-                The Networking Club
+                "The Networking Club"
               </h1>
               <p className="text-gray-300 text-lg mb-8 leading-relaxed">
                 Hey there, future innovator! 👋

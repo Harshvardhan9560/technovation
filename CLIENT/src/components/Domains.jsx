@@ -5,7 +5,7 @@ const Domains = () => {
   const domains = [
     {
       title: "AWS",
-      description: "This will be some random text that will be showcased here later after thoughtful consideration",
+      description: "“Take your ideas online — build, host, and scale apps in the cloud like a pro.”",
       buttonText: "Know More →",
       icon: (
         <svg className="w-12 h-12 text-orange-500" fill="currentColor" viewBox="0 0 24 24">

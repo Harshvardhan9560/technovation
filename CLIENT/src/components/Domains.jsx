@@ -25,7 +25,7 @@ const Domains = () => {
     },
     {
       title: "Networking",
-      description: "This will be some random text that will be showcased here later after thoughtful consideration", 
+      description: " The Networking domain explores the art of communication that powers the modern tech realm.", 
       buttonText: "Know More →",
       icon: (
         <svg className="w-12 h-12 text-orange-500" fill="currentColor" viewBox="0 0 24 24">

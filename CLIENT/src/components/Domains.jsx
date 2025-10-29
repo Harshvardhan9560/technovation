@@ -15,7 +15,7 @@ const Domains = () => {
     },
     {
       title: "Cyber Security", 
-      description: "This will be some random text that will be showcased here later after thoughtful consideration",
+      description: "“Become a digital guardian — protect systems and beat hackers at their own game.”",
       buttonText: "Know More →",
       icon: (
         <svg className="w-12 h-12 text-orange-500" fill="currentColor" viewBox="0 0 24 24">

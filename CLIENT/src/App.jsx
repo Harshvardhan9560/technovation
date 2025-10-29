@@ -34,9 +34,10 @@ function App() {
             <div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
                 Welcome to Technovation
-                <br />
-                "The Networking Club"
               </h1>
+              <h2 className="text-2xl md:text-3xl font-bold mb-6">
+                "The Networking Club"
+              </h2>
               <p className="text-gray-300 text-lg mb-8 leading-relaxed">
                 Hey there, future innovator! 👋
                 At Technovation, we tinker, experiment, and create with hacking, cloud, and networking — all fueled by late-night ideas and endless curiosity.

@@ -106,7 +106,7 @@ function App() {
                 {
                   title: "Connect",
                   description:
-                    "This will be some random text that will be showcased here later after thoughtful consideration",
+                    "Have an idea or a passion for tech? Connect with us - because big innovations start with simple conversations.",
                 },
                 {
                   title: "Grow",

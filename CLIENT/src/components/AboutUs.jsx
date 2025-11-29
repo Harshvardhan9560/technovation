@@ -36,7 +36,7 @@ const AboutUs = () => {
             ABOUT <span className="text-orange-500">US</span>
           </h2>
           <p className="text-gray-300 leading-relaxed mb-8 text-sm max-w-sm">
-            The rain began without warning, each drop landing like a small secret whispered against the pavement. Streetlights blinked uncertainly, as if deciding whether to stay awake, and a stray newspaper skittered past like it had somewhere urgent to be. A man in a green coat stood at the corner, staring at the sky as though expecting an answer..................
+           At Technovation, we enable inquisitive minds to investigate the domains of AWS, networking, and cybersecurity. Our goal is to create a community of innovators prepared to influence the direction of technology through practical events, workshops, and cooperative learning. Come along as we collaborate to connect, secure, and innovate
           </p>
           <Button 
             className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-l-md font-medium relative"

@@ -40,7 +40,7 @@ function App() {
               </h2>
               <p className="text-gray-300 text-lg mb-8 leading-relaxed">
                 Hey there, future innovator! 👋
-                At Technovation, we tinker, experiment, and create with hacking, cloud, and networking — all fueled by late-night ideas and endless curiosity.
+                At Technovation, we tinker, experiment, and create with hacking, cloud, and networking - all fueled by late-night ideas and endless curiosity.
                 Stick around — your next big idea might just spark here
               </p>
               <div className="flex gap-4">
@@ -101,7 +101,7 @@ function App() {
                 {
                   title: "Collaborate",
                   description:
-                    "At Collaborate, we unite students driven by technology, creativity, and innovation — building a space where ideas grow, skills evolve, and teamwork creates real impact.",
+                    "At Collaborate, we unite students driven by technology, creativity, and innovation - building a space where ideas grow, skills evolve, and teamwork creates real impact.",
                 },
                 {
                   title: "Connect",

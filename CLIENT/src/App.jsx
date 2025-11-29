@@ -111,7 +111,7 @@ function App() {
                 {
                   title: "Grow",
                   description:
-                    "Transform curiosity into code, ideas into impact, and grow into a true maker in the world of technology.",
+                    "From debugging questions to building solutions - grow as a thinker, creator, and tech innovator",
                 },
               ].map((item, index) => (
                 <Card key={index} className="bg-slate-800 border-slate-700 p-8 text-center">

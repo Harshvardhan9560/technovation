@@ -5,7 +5,7 @@ const Domains = () => {
   const domains = [
     {
       title: "AWS",
-      description: "“Take your ideas online — build, host, and scale apps in the cloud like a pro.”",
+      description: "“Take your ideas online - build, host, and scale apps in the cloud like a pro.”",
       buttonText: "Know More →",
       icon: (
         <svg className="w-12 h-12 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
@@ -15,7 +15,7 @@ const Domains = () => {
     },
     {
       title: "Cyber Security", 
-      description: "“Become a digital guardian — protect systems and beat hackers at their own game.”",
+      description: "“Become a digital guardian - protect systems and beat hackers at their own game.”",
       buttonText: "Know More →",
       icon: (
         <svg className="w-12 h-12 text-orange-500" fill="currentColor" viewBox="0 0 24 24">

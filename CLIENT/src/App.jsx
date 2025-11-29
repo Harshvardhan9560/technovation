@@ -101,7 +101,7 @@ function App() {
                 {
                   title: "Collaborate",
                   description:
-                    "This will be some random text that will be showcased here later after thoughtful consideration",
+                    "At Collaborate, we unite students driven by technology, creativity, and innovation — building a space where ideas grow, skills evolve, and teamwork creates real impact.",
                 },
                 {
                   title: "Connect",
@@ -111,7 +111,7 @@ function App() {
                 {
                   title: "Grow",
                   description:
-                    "From curiosity to confidence, from learning to leading — we will help you grow into thinkers, creators, and changemakers in the world of technology",
+                    "From curiosity to confidence, from learning to leading - we will help you grow into thinkers, creators, and changemakers in the world of technology.",
                 },
               ].map((item, index) => (
                 <Card key={index} className="bg-slate-800 border-slate-700 p-8 text-center">

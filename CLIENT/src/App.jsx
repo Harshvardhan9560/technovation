@@ -149,25 +149,26 @@ function App() {
             </h2>
             <Accordion type="single" collapsible className="space-y-4">
               {[
-                "What is your question ?",
-                "What is your question ?",
-                "What is your question ?",
-                "What is your question ?",
-              ].map((question, index) => (
-                <AccordionItem
-                  key={index}
-                  value={`item-${index}`}
-                  className="border-l-4 border-orange-500 bg-slate-800 px-6"
-                >
-                  <AccordionTrigger className="text-left hover:no-underline">{question}</AccordionTrigger>
-                  <AccordionContent className="text-gray-400">
-                    This will be the answer to the relevant question. Following this will be some random text that will be
-                    showcased here later after thoughtful consideration. Following this will be some random text that will
-                    be showcased here later after thoughtful consideration. Following this will be some random text that
-                    will be showcased here later after thoughtful consideration.
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
+  ["What is HealConnect?", "HealConnect is a platform that connects patients with healthcare professionals."],
+  ["Is HealConnect free?", "Yes, HealConnect offers free basic features."],
+  ["How do I book an appointment?", "You can book appointments directly from the dashboard."],
+  ["Is my data secure?", "We use encryption and secure servers to protect your data."],
+].map(([question, answer], index) => (
+  <AccordionItem
+    key={index}
+    value={`item-${index}`}
+    className="border-l-4 border-orange-500 bg-slate-800 px-6"
+  >
+    <AccordionTrigger className="text-left hover:no-underline">
+      {question}
+    </AccordionTrigger>
+
+    <AccordionContent className="text-gray-400">
+      {answer}
+    </AccordionContent>
+  </AccordionItem>
+))}
+              
             </Accordion>
           </div>
         </section>

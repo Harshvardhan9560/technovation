@@ -149,10 +149,10 @@ function App() {
             </h2>
             <Accordion type="single" collapsible className="space-y-4">
               {[
-  ["What is HealConnect?", "HealConnect is a platform that connects patients with healthcare professionals."],
-  ["Is HealConnect free?", "Yes, HealConnect offers free basic features."],
-  ["How do I book an appointment?", "You can book appointments directly from the dashboard."],
-  ["Is my data secure?", "We use encryption and secure servers to protect your data."],
+  ["Who can join Technovation ? ", "Any student passionate about technology, coding, or design can join. Whether you’re a beginner or experienced developer, Technovation welcomes you to learn, build, and grow together."],
+  ["How do I get started with Technovation ? ", "Start by joining Technovation through official links or community groups. Attend meetups, participate in workshops, and contribute to projects or hackathons to get involved."],
+  ["What kind of events does Technovation host ?", "Technovation Club hosts workshops and hands-on events in cybersecurity and networking, including CTFs, security labs, and hackathons."],
+  ["How does Technovation help in career growth?", "You get hands-on experience with real-world tools, mentorship from seniors and community experts, and a chance to lead initiatives. This builds your portfolio and sharpens soft skills like communication and leadership."],
 ].map(([question, answer], index) => (
   <AccordionItem
     key={index}
@@ -163,9 +163,17 @@ function App() {
       {question}
     </AccordionTrigger>
 
-    <AccordionContent className="text-gray-400">
-      {answer}
-    </AccordionContent>
+    <AccordionContent
+  className="
+    text-gray-400
+    overflow-hidden
+    data-[state=open]:animate-accordion-down
+    data-[state=closed]:animate-accordion-up
+  "
+>
+  {answer}
+</AccordionContent>
+
   </AccordionItem>
 ))}
               
